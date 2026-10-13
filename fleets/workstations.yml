@@ -210,6 +210,7 @@ labels:
     hosts:
 settings:
   webhook_settings:
-    enable_failing_policies_webhook: true
-    destination_url: https://webhook.site/4c7ae307-a2a9-46ea-bc8a-175b463a8d21
-    host_batch_size: 0
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/4c7ae307-a2a9-46ea-bc8a-175b463a8d21
+      host_batch_size: 0
